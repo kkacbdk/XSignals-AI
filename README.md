@@ -1,6 +1,6 @@
-# XSignals AI · 实时监测 + 手机推送 + 信号模拟交易
+# XSignals AI · 实时监测 + 手机推送 + 信号交易（模拟/实盘）
 
-> 基于 XSignals AI 加密货币多周期技术分析引擎的扩展项目：**定时监测行情 → Server酱 推送到手机 → 按信号自动模拟交易**，形成一个可观测、可回测（用模拟盘验证）的完整闭环。
+> 基于 XSignals AI 加密货币多周期技术分析引擎的扩展项目：**定时监测行情 → Server酱 推送到手机 → 按信号自动交易（模拟/实盘）**，形成一个可观测、可回测（用模拟盘验证）的完整闭环。
 
 ⚠️ **本项目仅用于学习与研究，不构成任何投资建议。加密货币交易风险极高，请勿投入无法承受损失的资金。**
 
@@ -11,16 +11,16 @@
 | 功能 | 说明 |
 |---|---|
 | **多周期技术分析** | 15m / 1h / 4h / 1d 四个周期，60+ 专业指标（RSI、MACD、ADX、布林带、ATR、量能等） |
-| **AI 中文解读** | 通过 OpenRouter 调用大模型（如 DeepSeek），对多周期数据生成中文分析报告 |
+| **AI 中文解读** | 通过 OpenRouter 调用大模型（如 Claude），对多周期数据生成中文分析报告 |
 | **实时监测 + 手机推送** | 定时抓取行情并分析，通过 [Server酱](https://sct.ftqq.com/) 推送到微信 |
-| **自动模拟交易** | 按信号自动开/平**模拟仓**，记录成交价、盈亏、胜率，全程不花真钱 |
+| **自动交易（模拟/实盘）** | 按信号自动开/平仓，支持**模拟盘与实盘**，记录成交价、盈亏、胜率（默认模拟盘，不花真钱） |
 | **多因子 + 风险控制** | 开仓需多条件同时确认；ATR 止损止盈；按风险比例计算仓位 |
 | **可选网页面板** | Flask 写的手机端小面板，可查看分析、模拟下单、一键急停（PIN 保护） |
 | **Windows 计划任务** | 每天 08:00–20:00 每 15 分钟自动运行，无需人工干预 |
 
 ---
 
-## 🧠 模拟盘决策逻辑
+## 🧠 交易决策逻辑（模拟/实盘通用）
 
 > 核心理念：**宁可错过，不逆势、不追高、不无量交易。**
 
@@ -70,7 +70,7 @@ XSignals-AI/
 │   ├── main.py              # 分析引擎主程序（多周期 + AI）
 │   ├── indicators.py        # 60+ 指标计算
 │   ├── monitor.py           # 定时监测 + Server酱 推送
-│   ├── paper_auto.py        # 自动模拟交易（多因子 + 风控）
+│   ├── paper_auto.py        # 自动交易（模拟/实盘，多因子 + 风控）
 │   ├── app.py               # 可选网页面板（Flask + PIN）
 │   ├── requirements.txt
 │   └── .env.example         # 配置模板
@@ -85,7 +85,7 @@ XSignals-AI/
 1. **安装 Python 3.8+**（推荐 3.10–3.13），安装时勾选 *Add Python to PATH*
 2. 双击 **`install.bat`** 自动创建虚拟环境并安装依赖
 3. 复制 `src/.env.example` 为 `src/.env`，填入自己的 Key（见下）
-4. 双击 **`run.bat`** 使用交互菜单；或运行 `python src/paper_auto.py` 做自动模拟盘
+4. 双击 **`run.bat`** 使用交互菜单；或运行 `python src/paper_auto.py` 做自动交易（默认模拟盘）
 
 > 中国大陆网络提示：分析/模拟盘走币安**公共行情接口** `data-api.binance.vision`，无需翻墙；
 > 但**实盘下单**需要访问 `api.binance.com`，需自行配置代理。
@@ -97,7 +97,7 @@ XSignals-AI/
 | 配置项 | 必填 | 说明 |
 |---|---|---|
 | `OPENROUTER_API_KEY` | ✅ | OpenRouter Key，用于 AI 解读 |
-| `MODEL_NAME` | ✅ | 模型 ID，如 `deepseek/deepseek-v4.1-flash-1017` |
+| `MODEL_NAME` | ✅ | 模型 ID（OpenRouter 任意模型，如 Claude、DeepSeek 等） |
 | `SERVERCHAN_SENDKEY` | ✅ | Server酱 SendKey，用于微信推送 |
 | `MONITOR_SYMBOL` | | 监测币种，默认 `SOLUSDT` |
 | `PUSH_MODE` | | `always` / `on_change` / `on_signal` |
