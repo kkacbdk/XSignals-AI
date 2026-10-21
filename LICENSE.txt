@@ -1,0 +1,52 @@
+XSIGNALS AI - SOFTWARE LICENSE AGREEMENT
+
+Copyright (c) 2025 XSignals AI. All rights reserved.
+
+GRANT OF LICENSE
+This software is licensed, not sold. By purchasing and using this software, 
+you agree to the following terms:
+
+PERMITTED USES
+✓ Personal use for your own trading analysis
+✓ Installation on multiple devices you personally own
+✓ Modification of the code for personal use
+✓ Learning from and studying the code
+
+PROHIBITED USES
+✗ Reselling, redistributing, or sharing this software
+✗ Publishing the code publicly (GitHub, forums, etc.)
+✗ Using commercially without written permission
+✗ Claiming authorship or removing copyright notices
+✗ Sublicensing or renting the software
+✗ Using to create competing products
+
+UPDATES & SUPPORT
+- Lifetime access to download updates from Gumroad
+- No guarantee of specific features or timeline for updates
+
+DISCLAIMER OF WARRANTIES
+THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS 
+FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+TRADING RISK WARNING
+CRYPTOCURRENCY TRADING CARRIES SUBSTANTIAL RISK OF LOSS. THIS SOFTWARE IS 
+FOR EDUCATIONAL PURPOSES ONLY AND IS NOT FINANCIAL ADVICE. THE CREATORS ARE 
+NOT RESPONSIBLE FOR ANY TRADING LOSSES OR DAMAGES RESULTING FROM USE OF THIS 
+SOFTWARE.
+
+LIMITATION OF LIABILITY
+IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR 
+OTHER LIABILITY ARISING FROM THE USE OF THIS SOFTWARE, INCLUDING BUT NOT 
+LIMITED TO DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES.
+
+TERMINATION
+This license is effective until terminated. Your rights will terminate 
+automatically if you fail to comply with these terms.
+
+ENTIRE AGREEMENT
+This license constitutes the entire agreement between you and the copyright 
+holder regarding this software.
+
+BY USING THIS SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ THIS LICENSE, 
+UNDERSTAND IT, AND AGREE TO BE BOUND BY ITS TERMS.
