@@ -1,0 +1,8 @@
+python-binance
+pandas
+ta
+requests
+python-dotenv
+numpy
+scipy
+flask
