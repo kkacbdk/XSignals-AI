@@ -1,0 +1,76 @@
+Enter symbol (e.g. BTCUSDT): ETHUSDT
+🚀 Starting XSignals AI Analysis for ETHUSDT
+📊 Analyzing timeframes: 15m, 1h, 4h, 1d
+📈 Fetching market overview...
+📊 Analyzing ETHUSDT on 15m timeframe...
+✅ Fetched 300 candles for ETHUSDT (15m)
+Debug: Starting indicator computation...
+📊 Analyzing ETHUSDT on 1h timeframe...
+✅ Fetched 300 candles for ETHUSDT (1h)
+Debug: Starting indicator computation...
+📊 Analyzing ETHUSDT on 4h timeframe...
+✅ Fetched 300 candles for ETHUSDT (4h)
+Debug: Starting indicator computation...
+📊 Analyzing ETHUSDT on 1d timeframe...
+✅ Fetched 200 candles for ETHUSDT (1d)
+Debug: Starting indicator computation...
+🤖 Generating AI analysis...
+
+================================================================================
+🚀 XSignals AI ANALYSIS COMPLETE: ETHUSDT
+================================================================================
+
+📊 TIMEFRAME SIGNALS:
+   15m: BUY
+   1h: SELL
+   4h: WAIT
+   1d: STRONG SELL
+
+🎯 AVERAGE CONFIDENCE: 60.6%
+
+🤖 AI TRADING ANALYSIS:
+────────────────────────────────────────────────────────────────────────────────
+### 1) MULTI-TIMEFRAME ALIGNMENT
+- Trend: Not aligned. 15M is slightly bullish (EMA8 > EMA21), 1H is bearish (EMA8 < EMA21), 4H bearish but strong trend, 1D strongly bearish.
+- Momentum: Neutral to bearish across frames. RSI ~46–48 (neutral zone), MACD negative on 1H/4H/1D, only 15M slightly positive.
+- Structure: No clear break of swing highs on 1H/4H. Daily shows broad downtrend with a higher RSI bottom at 36.7 (improvement) but still a strong SELL signal.
+- Cross-timeframe conflict: Intraday short-term bias (15M) leans BUY, but higher timeframes (1H/4H/1D) lean SELL. Prioritize higher-timeframe view.
+
+### 2) TRADING RECOMMENDATION
+- Primary signal: SELL (intraday swing on 1H timeframe)
+- Confidence: 6/10 (lower-timeframe bullishness introduces noise)
+- Entry zone: $3420–$3440 (below resistance, near rejection zone)
+- Stop loss: $3450 (above minor 15M resistance and recent high; RR ≈ 1:2 at TP1)
+- Take profit targets:
+  - TP1: $3320 (-3.0% from $3420)
+  - TP2: $3296 (-3.6% from $3420; aligns with 1H support)
+  - TP3: $3250 (-5.0% from $3420; intermediate daily target)
+- Rationale: 4H/1D show stronger downtrend and higher ADX; look to sell on lower-timeframe weakness/rejection at resistance.
+
+### 3) RISK ASSESSMENT
+- Key risks: Low volume and zero/flat volume on 4H/1D signal shallow participation; false breakouts likely if intraday bullishness persists.
+- Structural concerns: Daily downtrend intact; 4H EMAs bearish and ADX strong. 15M bullish indicator is the main conflicting factor.
+- Volatility: ATRs are moderate for 1H (28.94) and wider for 4H/1D. Avoid tight stops; trail or partial profit-taking recommended.
+
+### 4) MARKET PSYCHOLOGY
+- Sentiment: Likely fear/oversold on daily (RSI 36.7) but no capitulation yet. ETF outflows and whale accumulation/distribution would tilt bias.
+- Institutional activity: No specific inflows/outflows provided; keep an eye on spot/derivatives flows for confirmation.
+- Panic/FOMO triggers:
+  - Bullish: Break and hold above ~$3450 with volume could trigger short-term FOMO.
+  - Bearish: Rejection at $3440–$3450 followed by a break below $3386 could accelerate panic selling toward $3320/$3296.
+
+### 5) TIMING CONSIDERATIONS
+- Execute on 1H: Best blend of trend and clean signals; 15M for entry finesse.
+- Duration: Short-term to mid-term (intraday to 2–3 days).
+- Key events/levels: Watch macro catalysts (policy, CPI, employment), ETF flows, and resistance $3448–$3462; decisively moving past these levels changes bias.
+
+### 6) ALTERNATIVE SCENARIOS
+- Bull case: Break and hold above $3450 with volume could extend toward $3500–$3550. Confirm with a 1H close above resistance and EMA8>EMA21 alignment across 1H and 4H.
+- Bear case: Rejection at $3440–$3450, lose $3386 (15M support), then $3320/$3296. Below $3296 opens 1D support near $3250 and deeper at $3100.
+- Invalidation: A decisive 1H close above $3463 (1H resistance) flips the setup to WAIT/BUY on intraday strength; revisit the bias.
+────────────────────────────────────────────────────────────────────────────────
+
+📈 KEY LEVELS SUMMARY:
+   Current Price: $3396.8800
+   Support: $3295.4580 (3.0% away)
+   Resistance: $3462.7080 (1.9% away)
