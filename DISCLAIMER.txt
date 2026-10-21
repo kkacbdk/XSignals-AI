@@ -1,0 +1,20 @@
+TRADING RISK DISCLAIMER
+
+Cryptocurrency trading carries substantial risk of loss and is not 
+suitable for everyone. This software is provided for EDUCATIONAL 
+and INFORMATIONAL purposes only.
+
+This is NOT financial advice. The analysis provided by this software
+should not be considered as recommendations to buy or sell any 
+financial instrument.
+
+You are solely responsible for your trading decisions. Past 
+performance is not indicative of future results.
+
+Only trade with money you can afford to lose.
+
+The creator and distributor of this software shall not be held 
+liable for any losses incurred through the use of this software.
+
+By using this software, you acknowledge that you understand these
+risks and agree to use the software at your own risk.
