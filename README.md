@@ -20,6 +20,18 @@
 
 ---
 
+## 📸 效果截图
+
+**① SOLUSDT 运行时分析（终端）**
+
+![SOLUSDT 分析运行](docs/images/analysis.png)
+
+**② 手机微信推送（Server酱）**
+
+![手机微信推送](docs/images/phone-push.jpg)
+
+---
+
 ## 🧠 交易决策逻辑（模拟/实盘通用）
 
 > 核心理念：**宁可错过，不逆势、不追高、不无量交易。**
