@@ -1,0 +1,23 @@
+# ==== 密钥与本地配置（务必不要提交）====
+.env
+.env.*
+!.env.example
+
+# ==== Python ====
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# ==== 运行产物 / 隐私 ====
+logs/
+*.log
+paper_account.json
+.monitor_state.json
+.kill_switch
+
+# ==== 系统 ====
+.DS_Store
+Thumbs.db
+desktop.ini
